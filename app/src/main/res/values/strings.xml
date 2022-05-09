@@ -2,6 +2,8 @@
 <resources>
     <string name="app_name">Sundhar Bio</string>
     <string name="name">Sundar Pichai</string>
+
     <string name="star_data">Yellow Star</string>
     <string name="bio">As a boy growing up in Madras, Pichai slept with his brother in the living room of the cramped family home, but his father, an electrical engineer at the British multinational GEC, saw that the boys received a good education. \n\nAt an early age Pichai displayed an interest in technology and an extraordinary memory, especially for telephone numbers. \n\nAfter earning a degree in metallurgy (B.Tech., 1993) and a silver medal at the Indian Institute of Technology Kharagpur, he was awarded a scholarship to study at Stanford University (M.S. in engineering and materials science, 1995). \n\nHe remained in the United States thereafter, working briefly for Applied Materials (a supplier of semiconductor materials) and then earning an M.B.A. (2002) from the Wharton School of the University of Pennsylvania.\n\n\n\nIn 2011 Pichai reportedly was aggressively pursued for employment by microblogging service Twitter, and in 2014 he was touted as a possible CEO for Microsoft, but in both instances he was granted large financial packages to remain with Google. \n\nHe also was known to have helped negotiate Google’s $3.2 billion deal to acquire Nest Labs in 2014. \n\nTherefore, when Google cofounders Larry Page and Sergey Brin announced the creation of Alphabet Inc., in August 2015, it came as no surprise to industry insiders that Pichai was named CEO of Google, which was reorganized as a subsidiary.\n\n In December 2019 he also was named CEO of Alphabet, replacing Page, who stepped down.</string>
+    <string name="ask_nick_name">What is your nickname?</string>
 </resources>

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:contentDescription="@string/star_data"
     android:orientation="vertical"
-    android:paddingRight="@dimen/padding"
-    android:paddingLeft="@dimen/padding">
+    android:paddingLeft="@dimen/padding"
+    android:paddingRight="@dimen/padding">
 
     <TextView
         android:id="@+id/name_text"
@@ -17,6 +18,7 @@
         android:textAlignment="center" />
 
     <EditText
+        android:id="@+id/edit_nickname"
         style="@style/nameStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,6 +26,22 @@
         android:hint="@string/ask_nick_name"
         android:inputType="textPersonName"
         android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/done_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        tools:text="@string/done" />
+
+    <TextView
+        android:id="@+id/nickname_text"
+        style="@style/nameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="hii" />
 
     <ImageView
         android:id="@+id/star_image"
@@ -40,10 +58,10 @@
         <TextView
             android:id="@+id/bio_text"
             style="@style/nameStyle"
-            android:paddingBottom="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:lineSpacingMultiplier="1.2"
+            android:paddingBottom="15dp"
             android:text="@string/bio" />
     </ScrollView>
 </LinearLayout>
